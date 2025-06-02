@@ -1,5 +1,11 @@
+import Banner from './components/Banner';
+
 function App() {
-  return <h1 className="text-3xl font-bold underline"> Hello world! </h1>;
+  return (
+    <div className="h-full">
+      <Banner />
+    </div>
+  );
 }
 
 export default App;
